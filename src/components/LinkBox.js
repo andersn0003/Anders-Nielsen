@@ -11,10 +11,10 @@ export default function LinkBox() {
             <a href="https://mail.google.com/mail/u/0/#advanced-search/to=andersn0093%40gmail.com&query=in%3Asent&isrefinement=true&todisplay=andersn0093%40gmail.com?compose=new">
                 <FontAwesomeIcon icon={faGoogle} size='lg' className='hover:text-red-400' />
             </a>
-            <a href="https://discord.com">
+            <a href="https://discord.gg/andersn0095">
                 <FontAwesomeIcon icon={faDiscord} size='lg' className='hover:text-purple-400' />
             </a>
-            <a href="https://webtelegram.com">
+            <a href="https://t.me/andersn0093">
                 <FontAwesomeIcon icon={faTelegram} size='lg' className='hover:text-blue-400' />
             </a>
             <a href="https://linkedin.com/in/anders-nielsen-050ab62b7">
