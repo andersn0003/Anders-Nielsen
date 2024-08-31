@@ -60,7 +60,7 @@ export default function Experience() {
       <ExperienceContents
         period={{ start: "08/2019", end: "10/2020" }}
         company="Rubyswap"
-        role={"Smart Contract and Frontend developer"}
+        role={"Smart Contract and Frontend Developer"}
         description={"DEX Platform for Crypto Trading on Ethereum Blockchain"}
         link={"https://ruby.exchange"}
         detail={[
@@ -90,7 +90,7 @@ export default function Experience() {
       <ExperienceContents
         period={{ start: "11/2017", end: "04/2019" }}
         company="Bidify Org"
-        role={"Blockchain Full Stack Developer"}
+        role={"Smart Contract and Web3 Developer"}
         description={"Multi-Blockchain NFT Marketplace"}
         link={"https://bidify.org"}
         detail={[
