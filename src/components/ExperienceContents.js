@@ -10,8 +10,8 @@ export default function ExperienceContents({
 }) {
   return (
     <div className="flex flex-col items-start gap-4">
-      <div className="flex flex-row items-center justify-between w-full text-green-400">
-        <div className=" border rounded-md border-green-400 p-1 ml-4 text-wrap">
+      <div className="flex flex-row items-center justify-between w-full text-gray-400">
+        <div className=" border rounded-md border-gray-400 p-1 ml-4 text-wrap">
           {period.start + "-" + period.end}
         </div>
         <a href={link} className="font-semibold mr-20 max-[860px]:mr-0">
