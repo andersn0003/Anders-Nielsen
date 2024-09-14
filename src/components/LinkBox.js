@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 export default function LinkBox() {
     return (
-        <div className='flex flex-row justify-center gap-4'>
+        <div className='flex flex-row justify-center gap-8'>
             <a href="https://mail.google.com/mail/u/0/#advanced-search/to=andersn0093%40gmail.com&query=in%3Asent&isrefinement=true&todisplay=andersn0093%40gmail.com?compose=new">
                 <FontAwesomeIcon icon={faGoogle} size='lg' className='hover:text-red-400' />
             </a>
