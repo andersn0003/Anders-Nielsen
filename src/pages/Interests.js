@@ -4,7 +4,7 @@ export default function Interests() {
     const [toggle, setIsToggle] = useState(false)
     return (
         <div className='w-full flex flex-col gap-4 '>
-            <button className={' w-full py-1 text-center border border-green-500 rounded-sm ' + (toggle ? 'bg-white text-green-500 hover:bg-green-500 hover:text-white' : ' bg-green-500 text-white hover:bg-white hover:text-green-500')} onClick={() => setIsToggle(state => !state)}>
+            <button className={' w-full py-1 text-center rounded-sm ' + (toggle ? 'bg-white text-gray-500 hover:bg-gray-500 hover:text-white' : ' bg-gray-500 text-white hover:bg-white hover:text-gray-500')} onClick={() => setIsToggle(state => !state)}>
                 Interests
             </button>
             <ul className={' ' + (toggle ? 'flex flex-col items-start list-disc ml-6' : 'hidden')}>

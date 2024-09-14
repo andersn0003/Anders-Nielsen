@@ -34,16 +34,16 @@ function App() {
         </div>
         <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=15F748&center=false&vCenter=true&multiline=true&width=300&height=150&lines=Non-Fungible+Token;Trading;DeFi/DEX;Cross+Chain;Generative+AI" alt="Typing SVG" />
       </div>
-      <main className='flex flex-col h-full w-full bg-gray-200 overflow-auto p-10 gap-10 z-20'>
-        <div id='1' className='w-full flex flex-col gap-4 items-center'>
+      <main className='flex flex-col h-full w-full bg-gray-200 overflow-auto px-10 py-20 gap-10 z-20'>
+        <div id='1' className='w-full flex flex-col gap-8 items-center'>
           <Title content={'Work Experience'} />
           <Experience />
         </div>
-        <div id='2' className='w-full flex flex-col gap-4 items-center'>
+        <div id='2' className='w-full flex flex-col gap-8 items-center'>
           <Title content={'Education'} />
           <Education />
         </div>
-        <div id='3' className='w-full flex flex-col gap-4 items-center'>
+        <div id='3' className='w-full flex flex-col gap-8 items-center'>
           <Title content={'Skill'} />
           <Skills />
         </div>
