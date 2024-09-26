@@ -9,8 +9,9 @@ export default function Interests() {
             </button>
             <ul className={' ' + (toggle ? 'flex flex-col items-start list-disc ml-6' : 'hidden')}>
                 <li>NFT</li>
-                <li>Trade</li>
                 <li>DeFi/DEX</li>
+                <li>Layer2</li>
+                <li>New Protocol</li>
                 <li>Cross Chain</li>
                 <li>Generative AI</li>
             </ul>
