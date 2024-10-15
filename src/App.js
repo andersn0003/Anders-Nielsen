@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="flex flex-row w-screen h-screen justify-center px-[15%] max-2xl:px-[10%] max-xl:px-[5%] max-[970px]:px-0 max-[860px]:flex-col ">
-      <div className='w-[30%] h-full bg-gray-300 px-[1px] z-30 max-[860px]:hidden'>
+      <div className='w-[30%] h-full bg-gray-100 px-[1px] z-30 max-[860px]:hidden'>
         <header className="w-full h-full  bg-[rgba(255_255_255_55)] py-16 px-8 flex flex-col items-center gap-5">
           <img src='/img/avatar1.png' alt="" className='rounded-full shadow-md' />
           <div className='text-[36px] text-center hover:drop-shadow-[0px_0px_3px_gray]'>Anders Nielsen</div>
@@ -34,7 +34,7 @@ function App() {
         </div>
         <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=15F748&center=false&vCenter=true&multiline=true&width=300&height=150&lines=Non-Fungible+Token;Trading;DeFi/DEX;Cross+Chain;Generative+AI" alt="Typing SVG" />
       </div>
-      <main className='flex flex-col h-full w-full bg-gray-200 overflow-auto px-10 py-20 gap-10 z-20'>
+      <main className='flex flex-col h-full w-full bg-gray-50 overflow-auto px-10 py-20 gap-10 z-20'>
         <div id='1' className='w-full flex flex-col gap-8 items-center'>
           <Title content={'Work Experience'} />
           <Experience />

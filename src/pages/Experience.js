@@ -5,62 +5,68 @@ export default function Experience() {
   return (
     <div className="flex flex-col gap-10">
       <ExperienceContents
-        period={{ start: "02/2023", end: "04/2024" }}
-        company="Cata Labs"
-        role={"Blockchain Full-Stack Engineer"}
+        period={{ start: "08/2024", end: "Present" }}
+        company="DDID"
+        role={"Rust Engineer"}
         description={
-          "Catalyst is an open-source liquidity protocol for modular blockchains, developed by Cata Labs. Catalyst will automatically connect each new chain to other chains of interest, such as other app environments or hubs like Ethereum and Cosmos."
+          "DDID is a decentralized identification system for dogs that utilizes biometric data and zero-knowledge proofs, developed for enhanced pet identification. DDID ensures secure verification of a dog's identity while keeping sensitive biometric information private, facilitating reliable tracking and management across modular blockchain environments."
         }
-        link={" https://catalyst.exchange/"}
+        link={""}
         detail={[
           {
-            topic: "Developed a Cross-Chain AMM/DEX platform from scratch",
+            topic: "Design and develop an Off-Chain system",
             content:
-              " using Cosmos SDK, Bifrost protocol, Maya chain, and TSS.",
+              "  from the 0% development stage using Rust, Zero Knowledge Proof, Merkle Proofs, bellman for zk-SNARK, ZK-circuit, PostgreSQL as a database for storing user data and C++.",
           },
           {
             topic:
-              "Created an NFT Marketplace on multichain - Ethereum and Solana",
+              "Create all of the Smart Contracts",
             content:
-              "like Opensea, utilizing Solidity smart contracts, Rust programming language, Candy Machine -v3 technology, and Metaplex framework.",
+              " for storing and updating Merkle hash of user data, proving zk-Proof by using verifying key and returning permission",
+          },
+          {
+            topic:
+              "Collaborated in an agile environment with regular team meetings",
+            content:
+              " facilitated through Google doc for understanding, Jira for project management, and Google Meet for virtual meetings.",
           },
         ]}
       />
       <ExperienceContents
-        period={{ start: "10/2020", end: "02/2023" }}
-        company="Futureswap"
-        role={"Software Engineer"}
+        period={{ start: "04/2023", end: "07/2024" }}
+        company="Cata Labs"
+        role={"Blockchain core engineer"}
         description={
-          "Futureswap is a Decentralized leveraged trading on Arbitrum and Avalanche."
+          "Catalyst is an open-source liquidity protocol for modular blockchains, developed by Cata Labs. Catalyst will automatically connect each new chain to other chains of interest, such as other app environments or hubs like Ethereum and Cosmos."
         }
-        link={"https://www.futureswap.com"}
+        link={"https://catalyst.exchange/"}
         detail={[
           {
-            topic: "Developed a Smart Exchange page",
+            topic: "Design, develop, and implement a Cross-Chain AMM/DEX infra",
             content:
-              "using Typescript, NextJS, MUI, UniswapV3, Smart router, Fiat On/Off Ramp, and integrated Cmc/Cg/0x APIs.",
+              "from the 20% development stage using Cosmos SDK, Go programming language, C++ and blockchain frameworks like Maya chain and Bifrost protocol",
           },
           {
-            topic: "Established the backend infrastructure",
+            topic: "Collaborate with cross-functional team",
             content:
-              "using Golang, Fiber framework, Redis for caching, Gorm ORM for database interaction, Air for live reloading, Zap for logging, Docker for containerization, and designed the database schema.",
+              " to build and maintain 100% scalable, secure, and efficient backend services with smart contracts using Solidity and Rust for blockchain integration.",
           },
           {
-            topic: "Created Smart Contracts",
+            topic: "Create a user-friendly front-end interface for catalyst",
             content:
-              "for smart wallets incorporating Account Abstraction ERC- 4337 standard, Metakeep functionality, and implemented in Solidity.",
+              " from the 0% stage with your team using modern frameworks like Next.js, ensuring responsive and efficient interaction with decentralized systems.",
           },
           {
-            topic: "Collaborated in an agile environment",
+            topic: "Conduct thorough testing, debugging, and deployment of blockchain-based system",
             content:
-              "with regular team meetings facilitated through Slack for communication, Jira for project management, and Google Meet for virtual meetings.",
+              "to ensure 100% security standards and privacy.",
           },
         ]}
       />
       <ExperienceContents
-        period={{ start: "08/2019", end: "10/2020" }}
-        company="Rubyswap"
-        role={"Smart Contract and Frontend Developer"}
+        period={{ start: "01/2020", end: "02/2023" }}
+        company="Kaizen Finance"
+        role={"Software Engineer"}
         description={"DEX Platform for Crypto Trading on Ethereum Blockchain"}
         link={"https://ruby.exchange"}
         detail={[
