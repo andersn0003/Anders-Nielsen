@@ -40,7 +40,7 @@ function App() {
           <Experience />
         </div>
         <div id='2' className='w-full flex flex-col gap-8 items-center'>
-          <Title content={'Education'} />
+          <Title content={'Education and Training'} />
           <Education />
         </div>
         <div id='3' className='w-full flex flex-col gap-8 items-center'>

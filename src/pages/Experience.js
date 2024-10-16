@@ -67,54 +67,84 @@ export default function Experience() {
         period={{ start: "01/2020", end: "02/2023" }}
         company="Kaizen Finance"
         role={"Software Engineer"}
-        description={"DEX Platform for Crypto Trading on Ethereum Blockchain"}
-        link={"https://ruby.exchange"}
+        description={"Kaizen.Finance is the world's first cross-chain automated token launch platform for projects and investors"}
+        link={""}
         detail={[
           {
             topic:
-              "Spearheaded the development of a user-friendly web interface for the DEX platform",
+              "Established the back-end infrastructure",
             content:
-              "utilizing Next.JS, ensuring seamless navigation and optimal user experience.",
+              "from the 30% stage using Rust, Rocket framework, Zero Knowledge Proof, bellman and arkworks for zk-SNARK, ScyllaDB and PostgreSQL for database interaction, Air for live reloading, Docker for containerization and designed the database schema",
           },
           {
-            topic: "Engineered the backend infrastructure",
+            topic: "Built responsive, user-friendly interface",
             content:
-              "using Solidity smart contracts and Subgraph to facilitate efficient and secure transactions on the Ethergem blockchain.",
+              "from the 0% stage by integrating smart contracts with front-end frameworks - Next.js.",
           },
           {
-            topic: "Employed Redux for robust state management,",
+            topic: "Created 80% of all Smart Contracts for launching various tokens",
             content:
-              "integrated TailwindCSS and Material- UI (MUI) for sophisticated UI styling, enhancing the platform's visual appeal and functionality.",
+              "such as ERC20, SPL, token 2022, ERC1155, TRC20, and BEP20.",
           },
           {
-            topic: "Conducted comprehensive testing of the web interface",
+            topic: "Collaborated in an agile environment with regular team meetings",
             content:
-              "using the Jest testing framework to ensure reliability, performance, and adherence to project requirements.",
+              "facilitated through Slack for communication, Jira for project management, and Google Meet for virtual meetings.",
+          },
+        ]}
+      />
+      <ExperienceContents
+        period={{ start: "03/2020", end: "10/2020" }}
+        company="Futureswap"
+        role={"Smart Contract and Frontend Engineer"}
+        description={"Futureswap is a Decentralized leveraged trading on Arbitrum and Avalanche."}
+        link={"https://www.futureswap.com/"}
+        detail={[
+          {
+            topic:
+              "Developed a Decentralized Exchange page",
+            content:
+              " using Typescript, NextJS, TailwindCSS and Web3JS from the 0% stage and integrated various APIs of CMC, CG and 0x.",
+          },
+          {
+            topic: "Collaborate with cross-functional team of 7 members",
+            content:
+              " to design and implement innovative features that enhance user experience and system performance.",
+          },
+          {
+            topic: "Engineered the back-end infrastructure",
+            content:
+              " from the 40% stage using Solidity smart contracts and Subgraph to facilitate efficient and secure transactions.",
+          },
+          {
+            topic: "Participated in 100% of code test",
+            content:
+              " using Jest testing framework, contribute to architectural discussions, and implement best practices in version control, testing, and deployment using CI/CD pipelines like GitHub.",
           },
         ]}
       />
       <ExperienceContents
         period={{ start: "11/2017", end: "04/2019" }}
-        company="Bidify Org"
-        role={"Smart Contract and Web3 Developer"}
-        description={"Multi-Blockchain NFT Marketplace"}
-        link={"https://bidify.org"}
+        company="Coin Metrics"
+        role={"Blockchain Full Stack Developer"}
+        description={""}
+        link={""}
         detail={[
           {
             topic:
-              "Orchestrated the creation of robust smart contracts in Solidity",
+              "Designed and developed about 10% of blockchain solutions",
             content:
-              " to facilitate seamless buying, selling, and auctioning of NFTs across multiple blockchain networks within the marketplace.",
+              "  by building and integrating various smart contracts such as auction contract, voting contract and token contract, and secure back-end services using Web3 technologies like Solana / Web3.js, Wagmi, Viem and so on",
           },
           {
-            topic: "Collaborated on the development of the user interface",
+            topic: "Created more than 20 user-friendly front-end components ",
             content:
-              "(UI) using ReactJS, ensuring a visually appealing and user-friendly experience for platform users.",
+              " for Coin Metrics using modern frameworks like React.js ensuring responsive and efficient interaction with decentralized system.",
           },
           {
-            topic: "Successfully integrated with various third-party APIs",
+            topic: "Integrated with 3 third-party APIs including IPFS, Arweave, and Fleek",
             content:
-              "including IPFS, Arweave, and Fleek to enhance platform functionality, data storage, and overall user experience across different blockchain ecosystems.",
+              "  to enhance platform functionality, data storage, and overall user experience across blockchain ecosystems.",
           },
         ]}
       />
